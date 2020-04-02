@@ -11,6 +11,8 @@ div.title-header{
 }
 div.angels-news{
 	border-radius: 30% 30% 30% 0%;
+        background-color:black;
+        color: white;
 }
 h1,h2,h3,h4,h5,h6{
 	text-align: center;
@@ -18,8 +20,8 @@ h1,h2,h3,h4,h5,h6{
 
 }
 h2.an-news, h5.an-news-title{
-	background-color: #337ab7;
-	color: white;
+	background-color: white;
+	color: black;
 }
 div.top-logo{
   border-radius: 5px;
