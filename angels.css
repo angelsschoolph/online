@@ -1,0 +1,87 @@
+div.confirmed{
+	margin: 0;
+	background-image: url(assets/hightschoolart.jpg);
+}
+div.confirmed-cover-top{
+	background-color: rgba(0, 0, 0, 0.6); background-size: cover;
+}
+div.title-header{
+	 background-color: #337ab7;
+	 color: white;
+}
+div.angels-news{
+	border-radius: 30% 30% 30% 0%;
+}
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+	text-transform: uppercase;
+
+}
+h2.an-news, h5.an-news-title{
+	background-color: #337ab7;
+	color: white;
+}
+div.top-logo{
+  border-radius: 5px;
+  border: 4px solid white;
+  box-shadow: 10px 10px red;
+  width: 250px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+a.navbar-brand{
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: 4px 2px white;
+}
+li.nav-item a{
+  text-align: center;
+	padding: 1rem ;
+	text-transform: uppercase;
+}
+li.nav-item{
+	padding-left: 2rem;
+}
+li.nav-item a:hover{
+  background-color: #337ab7;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bolder;
+}
+button.navbar-toggler{
+  background-color: blue;
+ }
+div.card:hover{
+  border: 2px solid skyblue;
+}
+label{
+	margin-bottom: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bolder;
+}
+hr{
+	border: 2px solid red;
+}
+div#error-message{
+	margin-bottom: 20px;
+	padding: 0px;
+	background: red;
+	transition: all 0.5s ease;
+	text-align: center;
+	font-family: inherit;
+	text-transform: uppercase;
+}
+div.footer_down{
+	padding: 2rem;
+	text-align: center;
+	background-color: black;
+	color: red;
+}
+button.btn a{
+	color: white;
+	text-decoration: none;
+	font-weight: border;
+}
