@@ -82,7 +82,8 @@ div.footer_down{
 	background-color: black;
 	color: red;
 }
-button.btn a{
+button.btn a, a.btn{
+        background-color :red;
 	color: white;
 	text-decoration: none;
 	font-weight: border;
