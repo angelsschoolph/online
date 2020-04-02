@@ -88,3 +88,7 @@ button.btn, a.btn{
 	text-decoration: none;
 	font-weight: border;
 }
+section.angels_history {
+        background-color: black;
+        color: white;
+        font-weight:border;
