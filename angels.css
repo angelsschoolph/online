@@ -65,7 +65,7 @@ label{
 	font-weight: bolder;
 }
 hr{
-	border: 2px solid red;
+	border: 2px solid white;
 }
 div#error-message{
 	margin-bottom: 20px;
@@ -80,11 +80,11 @@ div.footer_down{
 	padding: 2rem;
 	text-align: center;
 	background-color: black;
-	color: red;
+	color: white;
 }
 button.btn, a.btn{
-        background-color :red;
-	color: white;
+        background-color:red;
+	color:white;
 	text-decoration: none;
 	font-weight: border;
 }
