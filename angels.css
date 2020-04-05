@@ -1,18 +1,20 @@
 div.confirmed{
 	margin: 0;
 	background-image: url(assets/hightschoolart.jpg);
+	height: 150px;
 }
 div.confirmed-cover-top{
-	background-color: rgba(0, 0, 0, 0.6); background-size: cover;
+	background-color: rgba(0, 0, 0, 0.4); background-size: cover;
 }
 div.title-header{
 	 background-color: brown;
 	 color: white;
+
 }
 div.angels-news{
 	border-radius: 30% 30% 30% 0%;
-        background-color:black;
-        color: white;
+	background-color: black;
+	color: white;
 }
 h1,h2,h3,h4,h5,h6{
 	text-align: center;
@@ -21,7 +23,9 @@ h1,h2,h3,h4,h5,h6{
 }
 h2.an-news, h5.an-news-title{
 	background-color: white;
-	color: black;
+	color: red;
+	text-decoration : underline;
+	text-decoration-color: black;
 }
 div.top-logo{
   border-radius: 5px;
@@ -31,31 +35,20 @@ div.top-logo{
   height: 60px;
   background-color: rgba(0, 0, 0, 0.6);
 }
-a.navbar-brand{
-  font-size: 30px;
-  text-transform: uppercase;
-  text-shadow: 4px 2px white;
-}
+
 li.nav-item a{
   text-align: center;
-	padding: 1rem ;
+	color: red;
+	font-size: 20px;
+	font-weight: bolder;
 	text-transform: uppercase;
 }
 li.nav-item{
-	padding-left: 2rem;
+	padding-left: 5rem;
 }
-li.nav-item a:hover{
-  background-color: #337ab7;
-  color: white;
-  border-radius: 5px;
-  text-align: center;
-  font-weight: bolder;
-}
-button.navbar-toggler{
-  background-color: blue;
- }
+
 div.card:hover{
-  border: 2px solid skyblue;
+  border: 2px solid white;
 }
 label{
 	margin-bottom: 0;
@@ -82,13 +75,34 @@ div.footer_down{
 	background-color: black;
 	color: white;
 }
-button.btn, a.btn{
-        background-color:red;
-	color:white;
+ a.btn{
+	background-color: red;
+	color: white;
+	font-weight: bolder;
+	text-decoration-line: none;
 	text-decoration: none;
 	font-weight: border;
 }
-section.angels_history {
-        background-color: black;
-        color: white;
-        font-weight:border;
+button.btn, button.btn a{
+	background-color: brown;
+	color: white;
+	font-weight: bolder;
+	text-decoration-line: none;
+	text-decoration: none;
+	font-weight: border;
+	margin: 2rem;
+	padding: 15px;
+}
+p.card-text div.container{
+	background-color: black;
+	color: white;
+}
+section.angels_history{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+div.contact_us{
+	background-color: black;
+	color: white;
+}
