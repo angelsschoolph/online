@@ -44,7 +44,7 @@ li.nav-item a{
 	text-transform: uppercase;
 }
 li.nav-item{
-	padding-left: 5rem;
+	padding-left: 2rem;
 }
 
 div.card:hover{
@@ -90,7 +90,10 @@ button.btn, button.btn a{
 	text-decoration-line: none;
 	text-decoration: none;
 	font-weight: border;
-	margin: 2rem;
+}
+button.btn{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 p.card-text div.container{
 	background-color: black;
