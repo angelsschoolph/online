@@ -3,8 +3,8 @@ div.confirmed{
 	background-image: url(assets/hightschoolart.jpg);
 	height: 150px;
 }
-div.confirmed-cover-top{
-	background-color: rgba(0, 0, 0, 0.4); background-size: cover;
+div.banner_cover{
+	background-color: rgba(0, 0, 0, 0.4); background-size: cover; height: 150px;
 }
 div.title-header{
 	 background-color: brown;
